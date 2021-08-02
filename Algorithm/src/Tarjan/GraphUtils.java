@@ -2,6 +2,9 @@ package Tarjan;
 import java.util.*;
 
 public class GraphUtils {
+
+
+
     public static Map<Integer,List<Integer>> BuildGraph(int[][]edges){
         Map<Integer,List<Integer>>map=new HashMap<>();
         for(int[]edge:edges){
@@ -16,4 +19,6 @@ public class GraphUtils {
         }
         return map;
     }
+
+
 }
