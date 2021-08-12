@@ -28,6 +28,11 @@ public class findSubStringIndex {
         return -1;
     }
 
+    /*
+    * find the longest length of substring prefix and suffix.
+    * like "abcabc" its substring abcab
+    *
+    * */
     private static int[] getNext(String needle){
         if(needle.length()==0){
             return null;
